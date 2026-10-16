@@ -1,11 +1,11 @@
 # USI — Urban Systems Intelligence website
 
-## Automated publication feed
+## Automated scholarly publication feed
 
 The publications section is data-driven.
 
 - **Identity/source list:** ORCID `0000-0002-9507-1279`
-- **Metadata enrichment:** Crossref for works that have a DOI
+- **Canonical metadata enrichment:** Crossref for works that have a DOI\n- **Citation and coverage enrichment:** Google Scholar via SerpApi (`cvEv8M4AAAAJ`)\n- **Secret required:** `SERPAPI_KEY` in GitHub Actions repository secrets
 - **Generated file:** `publications.json`
 - **Updater:** `scripts/update_publications.py`
 - **Automation:** `.github/workflows/update-publications.yml`
