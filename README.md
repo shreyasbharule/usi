@@ -36,3 +36,26 @@ Use the repository `main` branch and root folder as the Pages source. The workfl
 ## USI v2 visual portfolio
 
 The homepage uses labelled visual placeholders for maps, charts, flowcharts, field photographs and analytical outputs. Replace placeholder blocks in `index.html` as project visuals become available. The visual system uses semantic accents: cyan for data/intelligence, amber for planning/policy and violet for design/human-scale work.
+
+
+## Publication filtering and categories
+
+The automated feed includes a curation layer before writing `publications.json`.
+
+### Excluded from the public publication list
+- ORCID records typed as `other`
+- dissertations/theses
+- lectures/speeches
+- exact internal record: `Shreyas Lab Framework`
+- empty/untitled records
+
+### Public categories
+- **Journal Articles** — journal articles and Scholar-only records with a publication venue
+- **Books & Chapters** — books, edited books, book chapters and monographs
+- **Conference Papers** — proceedings and conference/symposium/congress records
+- **Preprints & Working Papers** — posted content, preprints and working papers
+- **Data & Research Resources** — datasets, databases and online research resources
+- **Other Scholarly Works** — Scholar records that cannot be classified confidently
+
+The generated JSON includes `category`, `category_label`, `category_counts`,
+`excluded_count` and a `filter_rules_version` for transparency and future maintenance.
