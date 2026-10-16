@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the USI scholarly feed from ORCID, Crossref and Google Scholar.
+"""Refresh the USI scholarly feed from ORCID, Crossref and Google Scholar.\n\n# Manual refresh trigger: 2026-10-16
 
 Sources:
 - ORCID: authoritative identity / public works list
