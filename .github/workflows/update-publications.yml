@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: scholarly-publication-feed
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -21,20 +25,39 @@ jobs:
       GOOGLE_SCHOLAR_ID: 'cvEv8M4AAAAJ'
       SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Sync with latest main
+        run: |
+          git fetch origin main
+          git pull --rebase origin main
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - name: Fetch ORCID, Crossref and Google Scholar metadata
         run: python scripts/update_publications.py
-      - name: Commit changes when scholarly metadata changed
+
+      - name: Commit and safely push scholarly metadata changes
         run: |
           if git diff --quiet -- publications.json; then
             echo "No publication metadata changes."
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add publications.json
           git commit -m "chore: refresh scholarly publication feed"
-          git push
+
+          # The branch may have advanced while metadata was being fetched.
+          # Rebase this single generated-file commit on the latest main before pushing.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
