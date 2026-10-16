@@ -209,6 +209,90 @@ def canonical_orcid_records() -> list[dict]:
     return records
 
 
+
+# Public-facing curation rules.
+# Records matching these raw types are not shown in the publication feed.
+EXCLUDED_TYPES = {
+    "other",
+    "dissertation-thesis",
+    "lecture-speech",
+}
+
+# Exact titles that are internal/project records rather than scholarly outputs.
+EXCLUDED_TITLES = {
+    "shreyas lab framework",
+}
+
+CATEGORY_LABELS = {
+    "journal": "Journal Articles",
+    "book": "Books & Chapters",
+    "conference": "Conference Papers",
+    "preprint": "Preprints & Working Papers",
+    "data": "Data & Research Resources",
+    "other": "Other Scholarly Works",
+}
+
+
+def infer_category(item: dict) -> str:
+    raw_type = str(item.get("type") or "").lower()
+    venue = str(item.get("venue") or "").lower()
+    title = str(item.get("title") or "").lower()
+    combined = f"{venue} {title}"
+
+    if raw_type in {"journal-article", "journal article", "article"}:
+        return "journal"
+    if raw_type in {"book", "edited-book", "book-chapter", "monograph"}:
+        return "book"
+    if raw_type in {"proceedings-article", "conference-paper", "conference paper"}:
+        return "conference"
+    if raw_type in {"posted-content", "preprint", "working-paper"}:
+        return "preprint"
+    if raw_type in {"data-set", "dataset", "database", "online-resource"}:
+        return "data"
+
+    # Google Scholar records do not expose a normalized work type.
+    if raw_type == "scholar-record":
+        if any(k in combined for k in ("proceedings", "conference", "congress", "symposium", "workshop")):
+            return "conference"
+        if any(k in combined for k in ("book", "handbook", "chapter", "press")):
+            return "book"
+        # A Scholar-only item with a named publication venue is usually an article.
+        if venue.strip():
+            return "journal"
+        return "other"
+
+    return "other"
+
+
+def include_public_record(item: dict) -> bool:
+    raw_type = str(item.get("type") or "").lower()
+    title_key = normalise_title(item.get("title"))
+    if raw_type in EXCLUDED_TYPES:
+        return False
+    if title_key in EXCLUDED_TITLES:
+        return False
+    if not title_key:
+        return False
+    return True
+
+
+def curate_records(records: list[dict]) -> tuple[list[dict], list[dict]]:
+    included, excluded = [], []
+    for item in records:
+        item = dict(item)
+        item["category"] = infer_category(item)
+        item["category_label"] = CATEGORY_LABELS[item["category"]]
+        if include_public_record(item):
+            included.append(item)
+        else:
+            excluded.append({
+                "title": item.get("title"),
+                "type": item.get("type"),
+                "reason": "filtered by public publication rules",
+            })
+    return included, excluded
+
+
 def merge_records(orcid_records: list[dict], scholar_records: list[dict]) -> list[dict]:
     scholar_by_title = {
         normalise_title(item.get("title")): item
@@ -266,14 +350,23 @@ def merge_records(orcid_records: list[dict], scholar_records: list[dict]) -> lis
 def main() -> None:
     orcid_records = canonical_orcid_records()
     scholar_records, scholar_metrics = scholar_profile()
-    publications = merge_records(orcid_records, scholar_records)
+    merged = merge_records(orcid_records, scholar_records)
+    publications, excluded = curate_records(merged)
+
+    category_counts = {}
+    for item in publications:
+        category_counts[item["category"]] = category_counts.get(item["category"], 0) + 1
 
     payload = {
         "source": "ORCID + Crossref + Google Scholar",
         "orcid": ORCID,
         "google_scholar_id": SCHOLAR_ID,
         "generated_at": datetime.now(timezone.utc).isoformat(),
+        "filter_rules_version": "2026-10-16-v1",
         "count": len(publications),
+        "excluded_count": len(excluded),
+        "category_counts": category_counts,
+        "categories": CATEGORY_LABELS,
         "scholar_metrics": scholar_metrics,
         "publications": publications,
     }
@@ -282,7 +375,8 @@ def main() -> None:
         encoding="utf-8",
     )
     print(
-        f"Wrote {len(publications)} works to {OUT} "
+        f"Wrote {len(publications)} public works to {OUT}; "
+        f"excluded {len(excluded)} records "
         f"(Scholar records: {len(scholar_records)})"
     )
 
