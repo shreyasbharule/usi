@@ -1,0 +1,35 @@
+{
+  "source": "ORCID + Crossref",
+  "orcid": "0000-0002-9507-1279",
+  "generated_at": null,
+  "count": 3,
+  "publications": [
+    {
+      "title": "Exploring Business Networks Along the Mumbai–Ahmedabad High-Speed Rail Corridor: A Study on Identifying City Linkages",
+      "authors": ["Shreyas Bharule", "T. Kidokoro", "F. Seta"],
+      "year": 2024,
+      "venue": "Transportation in Developing Economies",
+      "type": "journal-article",
+      "doi": "10.1007/s40890-023-00189-4",
+      "url": "https://doi.org/10.1007/s40890-023-00189-4"
+    },
+    {
+      "title": "Understanding railway usage behavior with ten million GPS records",
+      "authors": ["Y. Jin", "Z. Chen", "S. Bharule"],
+      "year": 2023,
+      "venue": "Cities",
+      "type": "journal-article",
+      "doi": "10.1016/j.cities.2022.104117",
+      "url": "https://doi.org/10.1016/j.cities.2022.104117"
+    },
+    {
+      "title": "Modular Metacognitive Digital Twin Technologies for Greener Cities & Cleaner Mobility",
+      "authors": ["Y. Jin", "H. Zhang", "S. Bharule"],
+      "year": 2021,
+      "venue": "Advances in Applied Energy",
+      "type": "journal-article",
+      "doi": "10.1016/j.adapen.2021.100081",
+      "url": "https://doi.org/10.1016/j.adapen.2021.100081"
+    }
+  ]
+}
