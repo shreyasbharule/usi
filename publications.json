@@ -2,8 +2,26 @@
   "source": "ORCID + Crossref + Google Scholar",
   "orcid": "0000-0002-9507-1279",
   "google_scholar_id": "cvEv8M4AAAAJ",
-  "generated_at": "2026-10-16T07:08:08.391502+00:00",
-  "count": 67,
+  "generated_at": "2026-10-16T07:28:41.270324+00:00",
+  "filter_rules_version": "2026-10-16-v1",
+  "count": 64,
+  "excluded_count": 3,
+  "category_counts": {
+    "book": 17,
+    "preprint": 5,
+    "data": 4,
+    "journal": 25,
+    "conference": 9,
+    "other": 4
+  },
+  "categories": {
+    "journal": "Journal Articles",
+    "book": "Books & Chapters",
+    "conference": "Conference Papers",
+    "preprint": "Preprints & Working Papers",
+    "data": "Data & Research Resources",
+    "other": "Other Scholarly Works"
+  },
   "scholar_metrics": {
     "author_id": "cvEv8M4AAAAJ",
     "profile_url": "https://scholar.google.com/citations?user=cvEv8M4AAAAJ",
@@ -28,7 +46,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:maZDTaKrznsC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:maZDTaKrznsC"
+      "citation_id": "cvEv8M4AAAAJ:maZDTaKrznsC",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Unveiling Urban Preferences: Leveraging Social Media Data for Tourism Planning",
@@ -45,18 +65,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:_Qo2XoVZTnwC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:_Qo2XoVZTnwC"
-    },
-    {
-      "title": "Shreyas Lab Framework",
-      "authors": [],
-      "year": "2026",
-      "venue": null,
-      "type": "other",
-      "doi": "10.6084/m9.figshare.32521665",
-      "url": "https://doi.org/10.6084/m9.figshare.32521665",
-      "source": "ORCID",
-      "scholar_citations": 0
+      "citation_id": "cvEv8M4AAAAJ:_Qo2XoVZTnwC",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Revitalization of College Street Kolkata",
@@ -70,7 +81,9 @@
       "doi": "10.67509/kagsb3251",
       "url": "https://doi.org/10.67509/kagsb3251",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Indigenous Ecotheology in the Digital Age: Khasi and Jaintia Tribal Festivals",
@@ -87,7 +100,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:k_IJM867U9cC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:k_IJM867U9cC"
+      "citation_id": "cvEv8M4AAAAJ:k_IJM867U9cC",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Geospatial Associations between Property Crimes and Land-use Features: A Case of Nashik, India",
@@ -104,7 +119,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:isC4tDSrTZIC",
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17939029108795016974",
-      "citation_id": "cvEv8M4AAAAJ:isC4tDSrTZIC"
+      "citation_id": "cvEv8M4AAAAJ:isC4tDSrTZIC",
+      "category": "preprint",
+      "category_label": "Preprints & Working Papers"
     },
     {
       "title": "Environmental walkability measurement in three Tier-2 Indian cities: data and code",
@@ -115,7 +132,9 @@
       "doi": "10.5281/zenodo.23301848",
       "url": "https://doi.org/10.5281/zenodo.23301848",
       "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "data",
+      "category_label": "Data & Research Resources"
     },
     {
       "title": "Data and code for: Environmental walkability measurement in three Tier-2 Indian cities: benchmarking Overture Maps against OpenStreetMap and Earth-observation built-up surface",
@@ -126,7 +145,9 @@
       "doi": "10.5281/zenodo.23221626",
       "url": "https://doi.org/10.5281/zenodo.23221626",
       "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "data",
+      "category_label": "Data & Research Resources"
     },
     {
       "title": "Cluster Morphology as a Determinant of Outdoor Thermal Stress in Container-Based Temporary Worker Housing: A Comparative Simulation Study in a Hot-Arid Climate",
@@ -142,7 +163,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:blknAaTinKkC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Assessing Visual Connectivity at Property Crime Hotspots in Nashik City",
@@ -159,7 +182,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:JV2RwH3_ST0C",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:JV2RwH3_ST0C"
+      "citation_id": "cvEv8M4AAAAJ:JV2RwH3_ST0C",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "A systematic review of geographical information systems for the conservation of historic settlements",
@@ -177,7 +202,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:M3NEmzRMIkIC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:M3NEmzRMIkIC"
+      "citation_id": "cvEv8M4AAAAJ:M3NEmzRMIkIC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Urban Transport Transitions in Developing Asia: From Challenges to Change",
@@ -193,7 +220,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:RHpTSmoSYBkC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Towards Inclusive Cities: A State-Wise Analysis of Disability Distribution in India and Urban Planning Interventions",
@@ -209,7 +238,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:mB3voiENLucC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:mB3voiENLucC"
+      "citation_id": "cvEv8M4AAAAJ:mB3voiENLucC",
+      "category": "preprint",
+      "category_label": "Preprints & Working Papers"
     },
     {
       "title": "Shrinking India: Visualizing time-space implication of introduction of semi-high-speed trains in India",
@@ -226,7 +257,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:hFOr9nPyWt4C",
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16287310030163625006",
-      "citation_id": "cvEv8M4AAAAJ:hFOr9nPyWt4C"
+      "citation_id": "cvEv8M4AAAAJ:hFOr9nPyWt4C",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Planning of a Community-based festival to empower local communities and their cultural identity",
@@ -242,7 +275,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:j3f4tGmQtD8C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Inclusive Pathways To Waste Resilience: Community-Based Decentralized Solid Waste Management In Balasore, Odisha",
@@ -258,7 +293,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:iH-uZ7U-co4C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Conclusion: Toward High-Quality, Inclusive Transit-Oriented Development",
@@ -274,7 +311,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:4JMBOYKVnBMC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Unleashing the Full Potential of Private Participation in Railway Development in Developing Asia: Perspective from the Rail-Plus-Property Model",
@@ -290,7 +329,9 @@
       "scholar_citations": 2,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1178929017399166637",
       "citation_id": "cvEv8M4AAAAJ:-f6ydRqryjwC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "other",
+      "category_label": "Other Scholarly Works"
     },
     {
       "title": "Structure of A High-Speed Rail Corridor: Long-term planning implications for sustainable regional development along High-Speed Rail Corridor",
@@ -306,7 +347,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9031030933277550403",
       "citation_id": "cvEv8M4AAAAJ:hC7cP41nSMkC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Reviving Heritage and Empowering Communities: Inclusive Regeneration Practices in the Temple Towns of Bishnupur and Kalna, India",
@@ -324,7 +367,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:R3hNpaxXUhUC",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:R3hNpaxXUhUC"
+      "citation_id": "cvEv8M4AAAAJ:R3hNpaxXUhUC",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Policy Implication of Battery Swapping Systems for Three-Wheelers in Tier II Cities in India",
@@ -340,7 +385,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:IWHjjKOFINEC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Planning of a Community- based festival to empower local communities and their cultural identity- A study of the Behdieñkhlam Festival in Jowai Meghalaya, India",
@@ -354,7 +401,9 @@
       "doi": "10.47472/drkngdcg",
       "url": "https://doi.org/10.47472/drkngdcg",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Knowledge Systems associated with historic temple towns: Bishnupur, West Bengal",
@@ -369,18 +418,9 @@
       "doi": "10.54985/peeref.2409p5573408",
       "url": "https://doi.org/10.54985/peeref.2409p5573408",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
-    },
-    {
-      "title": "History of Architecture-1 - Course Introduction",
-      "authors": [],
-      "year": "2024",
-      "venue": null,
-      "type": "lecture-speech",
-      "doi": "10.6084/m9.figshare.25195595.v1",
-      "url": "https://figshare.com/articles/presentation/History_of_Architecture-1_-_Course_Introduction/25195595",
-      "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "data",
+      "category_label": "Data & Research Resources"
     },
     {
       "title": "Exploring Business Networks Along the Mumbai–Ahmedabad High-Speed Rail Corridor: A Study on Identifying City Linkages",
@@ -398,7 +438,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:7PzlFSSx8tAC",
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=745655984270457014",
-      "citation_id": "cvEv8M4AAAAJ:7PzlFSSx8tAC"
+      "citation_id": "cvEv8M4AAAAJ:7PzlFSSx8tAC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Using mobile phone big data to identify inequity of aging groups in transit-oriented development station usage: A case of Tokyo",
@@ -422,7 +464,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:4TOpqqG69KYC",
       "scholar_citations": 31,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4710954045532750986",
-      "citation_id": "cvEv8M4AAAAJ:4TOpqqG69KYC"
+      "citation_id": "cvEv8M4AAAAJ:4TOpqqG69KYC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Understanding railway usage behavior with ten million GPS records",
@@ -446,7 +490,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:_kc_bZDykSQC",
       "scholar_citations": 11,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=972491302225852598",
-      "citation_id": "cvEv8M4AAAAJ:_kc_bZDykSQC"
+      "citation_id": "cvEv8M4AAAAJ:_kc_bZDykSQC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "SUSTAINABLE APPROACH TOWARDS URBAN RIVERFRONT DEVELOPMENT : A CASE STUDY OF MULA-MUTHA RIVER, PUNE, MAHARASHTRA",
@@ -461,7 +507,9 @@
       "doi": "10.20885/icsbe.vol2.art11",
       "url": "https://doi.org/10.20885/icsbe.vol2.art11",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Structure of A High-Speed Rail Corridor: Long-term planning implications for sustainable regional development along HSR Corridor",
@@ -474,7 +522,9 @@
       "doi": "10.7490/f1000research.1119651.1",
       "url": "https://doi.org/10.7490/f1000research.1119651.1",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "preprint",
+      "category_label": "Preprints & Working Papers"
     },
     {
       "title": "SOCIO-ECONOMIC ASPECTS AFFECTING ARCHITECTURAL EDUCATION AND PROFESSION: STRATEGIES AND TACTICS",
@@ -488,7 +538,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:QIV2ME_5wuYC",
       "scholar_citations": 8,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16929403751669057629",
-      "citation_id": "cvEv8M4AAAAJ:QIV2ME_5wuYC"
+      "citation_id": "cvEv8M4AAAAJ:QIV2ME_5wuYC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Role of urban cores in the Tourism development of a regional space: Review of Northeast India",
@@ -502,7 +554,9 @@
       "doi": "10.47472/vzakb7z4",
       "url": "https://doi.org/10.47472/vzakb7z4",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Rethinking Cities for Resilience and Growth in the Post-COVID-19 World",
@@ -516,7 +570,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:qUcmZB5y_30C",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:qUcmZB5y_30C"
+      "citation_id": "cvEv8M4AAAAJ:qUcmZB5y_30C",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Golden Week Movements_2019-2022",
@@ -527,7 +583,9 @@
       "doi": "10.6084/m9.figshare.22004075",
       "url": "https://figshare.com/articles/figure/Golden_Week_Movements_2019-2022/22004075",
       "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "data",
+      "category_label": "Data & Research Resources"
     },
     {
       "title": "Geospatial Futures for Social Impact: Big Data and Location Intelligence for Urban Resilience",
@@ -543,7 +601,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:L8Ckcad2t8MC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "A SUSTAINABLE APPROACH TOWARDS URBAN RIVERFRONT DEVELOPMENT: A CASE STUDY OF MULA-MUTHA RIVER, PUNE, MAHARASHTRA",
@@ -559,7 +619,9 @@
       "scholar_citations": 2,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3780231639598375310",
       "citation_id": "cvEv8M4AAAAJ:ZeXyd9-uunAC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Modular Metacognitive Digital Twin Technologies for Greener Cities &amp; Cleaner Mobility",
@@ -570,7 +632,9 @@
       "doi": "10.1016/j.adapen.2021.100081",
       "url": "https://doi.org/10.1016/j.adapen.2021.100081",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Introduction",
@@ -585,7 +649,9 @@
       "doi": "10.1016/b978-0-323-90169-7.00001-4",
       "url": "https://doi.org/10.1016/b978-0-323-90169-7.00001-4",
       "source": "ORCID + Crossref",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Evolution of the City of Udaipur: Understanding the Historical and Ecological context",
@@ -601,7 +667,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:r0BpntZqJG4C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "A real-time optimisation for disaster-relief distribution inheterogeneous crowdsourcing",
@@ -617,7 +685,9 @@
       "scholar_citations": 2,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=9230846156159073597",
       "citation_id": "cvEv8M4AAAAJ:ULOm3_A8WrAC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Rethinking Cities for Resilience and Growth in the Post-COVID-19 Pandemic Era",
@@ -633,7 +703,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12222003719919649783",
       "citation_id": "cvEv8M4AAAAJ:hqOjcs7Dif8C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "other",
+      "category_label": "Other Scholarly Works"
     },
     {
       "title": "Modular metacognitive digital twin technologies for greener cities & cleaner mobility",
@@ -649,7 +721,9 @@
       "scholar_citations": 4,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6068877944234895047",
       "citation_id": "cvEv8M4AAAAJ:KlAtU1dfN6UC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Introduction: Big data and mobility as a service",
@@ -665,7 +739,9 @@
       "scholar_citations": 21,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=72545330170058862",
       "citation_id": "cvEv8M4AAAAJ:0EnyYjriUFMC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Introduction",
@@ -676,7 +752,9 @@
       "doi": null,
       "url": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85129859312&partnerID=MN8TOARS",
       "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "The Potential of Big Data for Boosting the Social Impact of Infrastructure Projects",
@@ -692,7 +770,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12105083232690700702",
       "citation_id": "cvEv8M4AAAAJ:eQOLeE2rZwMC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Quality-of-Life Implications of Public Transport Integration",
@@ -708,7 +788,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:WF5omc3nYNoC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Handbook on High-Speed Rail and Quality of Life",
@@ -722,7 +804,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:M3ejUd6NZC8C",
       "scholar_citations": 14,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2883284059043406028,5396278300267552702",
-      "citation_id": "cvEv8M4AAAAJ:M3ejUd6NZC8C"
+      "citation_id": "cvEv8M4AAAAJ:M3ejUd6NZC8C",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Governance Institutions: Key Elements for the Integrated Planning and Equitable Deliverability of High-Quality Transport Infrastructure",
@@ -738,7 +822,9 @@
       "scholar_citations": 7,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=515782790805631933,6012118911123626972",
       "citation_id": "cvEv8M4AAAAJ:ufrVoPGSRksC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Framework for Public Transport Integration at Railway Stations and Its Implications for Quality of Life",
@@ -757,7 +843,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:Y0pCki6q_DkC",
       "scholar_citations": 31,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15108900418913655607",
-      "citation_id": "cvEv8M4AAAAJ:Y0pCki6q_DkC"
+      "citation_id": "cvEv8M4AAAAJ:Y0pCki6q_DkC",
+      "category": "preprint",
+      "category_label": "Preprints & Working Papers"
     },
     {
       "title": "Evolution of High-Speed Rail and its Development Effects: Stylized Facts and Review of Relationships",
@@ -775,7 +863,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:qjMakFHDy7sC",
       "scholar_citations": 29,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8710731974875111306",
-      "citation_id": "cvEv8M4AAAAJ:qjMakFHDy7sC"
+      "citation_id": "cvEv8M4AAAAJ:qjMakFHDy7sC",
+      "category": "preprint",
+      "category_label": "Preprints & Working Papers"
     },
     {
       "title": "Evaluation of Transport Infrastructure Impacts and their Implications for Quality of Life",
@@ -791,7 +881,9 @@
       "scholar_citations": 3,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2932356662935701639",
       "citation_id": "cvEv8M4AAAAJ:YsMSGLbcyi4C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Spill-over and straw effects of HSR",
@@ -805,7 +897,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:Se3iqnhoufwC",
       "scholar_citations": 6,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=901776907092981110",
-      "citation_id": "cvEv8M4AAAAJ:Se3iqnhoufwC"
+      "citation_id": "cvEv8M4AAAAJ:Se3iqnhoufwC",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Policies, Programs, and Human Resources Development for Transport Infrastructure",
@@ -821,7 +915,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:IjCSPb-OGe4C",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Land Acquisition In Asia: Towards a Sustainable Policy Framework",
@@ -837,7 +933,9 @@
       "scholar_citations": 14,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14104002450681858338",
       "citation_id": "cvEv8M4AAAAJ:4DMP91E08xMC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "High-Speed Rail Services in Asia",
@@ -853,7 +951,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=715157112668327574",
       "citation_id": "cvEv8M4AAAAJ:MXK_kJrjxJIC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "High-speed rail and station area development",
@@ -867,7 +967,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:_FxGoFyzp5QC",
       "scholar_citations": 3,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15060406143446129806",
-      "citation_id": "cvEv8M4AAAAJ:_FxGoFyzp5QC"
+      "citation_id": "cvEv8M4AAAAJ:_FxGoFyzp5QC",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Evolution of high-speed rail and its development effects",
@@ -878,7 +980,9 @@
       "doi": null,
       "url": "https://id.culturegraph.org/K10Plus:1685187919",
       "source": "ORCID",
-      "scholar_citations": 0
+      "scholar_citations": 0,
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "Evolution and Development Effects of High-Speed Rail: A Review",
@@ -894,21 +998,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:TQgYirikUcIC",
-      "source": "Google Scholar"
-    },
-    {
-      "title": "Enhancing Linkages in City Regions: Analysing City Networks and Perspectives for High-Speed Rail Station Area Development in India",
-      "authors": [],
-      "year": "2019",
-      "venue": null,
-      "type": "dissertation-thesis",
-      "doi": "10.15083/0002004378",
-      "url": "https://doi.org/10.15083/0002004378",
-      "source": "ORCID + Crossref + Google Scholar",
-      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:UebtZRa9Y70C",
-      "scholar_citations": 3,
-      "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=923880659315167894,12176802162180354921",
-      "citation_id": "cvEv8M4AAAAJ:UebtZRa9Y70C"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Economic Development and Effects on Land",
@@ -924,7 +1016,9 @@
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:d1gkVwhDpl0C",
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
-      "citation_id": "cvEv8M4AAAAJ:d1gkVwhDpl0C"
+      "citation_id": "cvEv8M4AAAAJ:d1gkVwhDpl0C",
+      "category": "book",
+      "category_label": "Books & Chapters"
     },
     {
       "title": "ADBI Working Paper Series FRAMEWORK FOR PUBLIC TRANSPORT INTEGRATION AT RAILWAY STATIONS AND ITS IMPLICATIONS FOR QUALITY OF LIFE Asian Development Bank Institute",
@@ -940,7 +1034,9 @@
       "scholar_citations": 3,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14412967599199279205",
       "citation_id": "cvEv8M4AAAAJ:hMod-77fHWUC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "other",
+      "category_label": "Other Scholarly Works"
     },
     {
       "title": "A Framework for Public Transport Integration at Railway Stations and its Impact on Quality of Life",
@@ -956,7 +1052,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:bEWYMUwI8FkC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "High-speed rail investment: A butterfly effect for urban chaos",
@@ -972,7 +1070,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:8k81kl-MbHgC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Indian Cities in Transition",
@@ -988,7 +1088,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2373593804333964689",
       "citation_id": "cvEv8M4AAAAJ:UeHWp8X0CEIC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "conference",
+      "category_label": "Conference Papers"
     },
     {
       "title": "Diversity of an ideogram: A Case of Swastika Eastern World",
@@ -1004,7 +1106,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1537860183184910541",
       "citation_id": "cvEv8M4AAAAJ:9yKSN-GCB0IC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "HISTORICAL EVOLUTION OF INDIA",
@@ -1020,7 +1124,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:5nxA0vEk-isC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "SWASTIKA",
@@ -1034,7 +1140,9 @@
       "scholar_citations": 1,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6224084569785762422",
       "citation_id": "cvEv8M4AAAAJ:zYLM7Y9cAGgC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Role of urban cores in the Tourism Development of regional space.",
@@ -1050,7 +1158,9 @@
       "scholar_citations": 0,
       "scholar_cited_by_url": null,
       "citation_id": "cvEv8M4AAAAJ:TFP_iSt0sucC",
-      "source": "Google Scholar"
+      "source": "Google Scholar",
+      "category": "other",
+      "category_label": "Other Scholarly Works"
     }
   ]
 }
