@@ -1,9 +1,14 @@
-name: Refresh ORCID publications
+name: Refresh scholarly publication feed
 
 on:
   schedule:
     - cron: '17 3 * * 0'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_publications.py'
+      - '.github/workflows/update-publications.yml'
 
 permissions:
   contents: write
@@ -11,14 +16,18 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      ORCID_ID: '0000-0002-9507-1279'
+      GOOGLE_SCHOLAR_ID: 'cvEv8M4AAAAJ'
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch ORCID + Crossref metadata
+      - name: Fetch ORCID, Crossref and Google Scholar metadata
         run: python scripts/update_publications.py
-      - name: Commit changes when metadata changed
+      - name: Commit changes when scholarly metadata changed
         run: |
           if git diff --quiet -- publications.json; then
             echo "No publication metadata changes."
@@ -27,5 +36,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add publications.json
-          git commit -m "chore: refresh ORCID publications"
+          git commit -m "chore: refresh scholarly publication feed"
           git push
