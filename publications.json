@@ -2,7 +2,7 @@
   "source": "ORCID + Crossref + Google Scholar",
   "orcid": "0000-0002-9507-1279",
   "google_scholar_id": "cvEv8M4AAAAJ",
-  "generated_at": "2026-10-18T08:09:39.828935+00:00",
+  "generated_at": "2026-10-25T08:33:26.669999+00:00",
   "filter_rules_version": "2026-10-16-v1",
   "count": 64,
   "excluded_count": 3,
@@ -25,7 +25,7 @@
   "scholar_metrics": {
     "author_id": "cvEv8M4AAAAJ",
     "profile_url": "https://scholar.google.com/citations?user=cvEv8M4AAAAJ",
-    "total_citations": 208,
+    "total_citations": 209,
     "h_index": 8,
     "i10_index": 7
   },
@@ -200,8 +200,8 @@
       "url": "https://doi.org/10.1007/s43621-026-03664-1",
       "source": "ORCID + Crossref + Google Scholar",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:M3NEmzRMIkIC",
-      "scholar_citations": 0,
-      "scholar_cited_by_url": null,
+      "scholar_citations": 1,
+      "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11408806045958284236",
       "citation_id": "cvEv8M4AAAAJ:M3NEmzRMIkIC",
       "category": "journal",
       "category_label": "Journal Articles"
