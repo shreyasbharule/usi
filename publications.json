@@ -2,15 +2,15 @@
   "source": "ORCID + Crossref + Google Scholar",
   "orcid": "0000-0002-9507-1279",
   "google_scholar_id": "cvEv8M4AAAAJ",
-  "generated_at": "2026-10-25T08:33:26.669999+00:00",
+  "generated_at": "2026-11-01T10:38:14.711946+00:00",
   "filter_rules_version": "2026-10-16-v1",
-  "count": 64,
+  "count": 65,
   "excluded_count": 3,
   "category_counts": {
     "book": 17,
+    "journal": 26,
     "preprint": 5,
     "data": 4,
-    "journal": 25,
     "conference": 9,
     "other": 4
   },
@@ -25,7 +25,7 @@
   "scholar_metrics": {
     "author_id": "cvEv8M4AAAAJ",
     "profile_url": "https://scholar.google.com/citations?user=cvEv8M4AAAAJ",
-    "total_citations": 209,
+    "total_citations": 211,
     "h_index": 8,
     "i10_index": 7
   },
@@ -103,6 +103,25 @@
       "citation_id": "cvEv8M4AAAAJ:k_IJM867U9cC",
       "category": "book",
       "category_label": "Books & Chapters"
+    },
+    {
+      "title": "Geospatial associations between property crimes and urban facilities: empirical evidence from Nagpur, India",
+      "authors": [
+        "Anubhav Kumbhre",
+        "Shreyas Bharule"
+      ],
+      "year": 2026,
+      "venue": "Crime Science",
+      "type": "journal-article",
+      "doi": "10.1186/s40163-026-00307-8",
+      "url": "https://doi.org/10.1186/s40163-026-00307-8",
+      "source": "ORCID + Crossref + Google Scholar",
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:NMxIlDl6LWMC",
+      "scholar_citations": 0,
+      "scholar_cited_by_url": null,
+      "citation_id": "cvEv8M4AAAAJ:NMxIlDl6LWMC",
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Geospatial Associations between Property Crimes and Land-use Features: A Case of Nashik, India",
@@ -212,7 +231,7 @@
         "S Bharule, S Akimura, P Tiwari, M Morikawa, KE Seetharam"
       ],
       "year": "2025",
-      "venue": "ADBIPress, Tokyo, JAPAN DOI: https://doi.org/10.56506/HQ, 2025",
+      "venue": "ADBIPress, Tokyo, JAPAN DOI: https://doi.org/10.56506/HQRY3122, 2025",
       "type": "scholar-record",
       "doi": null,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:RHpTSmoSYBkC",
@@ -616,7 +635,7 @@
       "doi": null,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:ZeXyd9-uunAC",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:ZeXyd9-uunAC",
-      "scholar_citations": 2,
+      "scholar_citations": 3,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3780231639598375310",
       "citation_id": "cvEv8M4AAAAJ:ZeXyd9-uunAC",
       "source": "Google Scholar",
@@ -1031,7 +1050,7 @@
       "doi": null,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:hMod-77fHWUC",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:hMod-77fHWUC",
-      "scholar_citations": 3,
+      "scholar_citations": 4,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14412967599199279205",
       "citation_id": "cvEv8M4AAAAJ:hMod-77fHWUC",
       "source": "Google Scholar",
