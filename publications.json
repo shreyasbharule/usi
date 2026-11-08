@@ -2,13 +2,13 @@
   "source": "ORCID + Crossref + Google Scholar",
   "orcid": "0000-0002-9507-1279",
   "google_scholar_id": "cvEv8M4AAAAJ",
-  "generated_at": "2026-11-01T10:38:14.711946+00:00",
+  "generated_at": "2026-11-08T10:33:31.782716+00:00",
   "filter_rules_version": "2026-10-16-v1",
-  "count": 65,
+  "count": 66,
   "excluded_count": 3,
   "category_counts": {
     "book": 17,
-    "journal": 26,
+    "journal": 27,
     "preprint": 5,
     "data": 4,
     "conference": 9,
@@ -25,7 +25,7 @@
   "scholar_metrics": {
     "author_id": "cvEv8M4AAAAJ",
     "profile_url": "https://scholar.google.com/citations?user=cvEv8M4AAAAJ",
-    "total_citations": 211,
+    "total_citations": 213,
     "h_index": 8,
     "i10_index": 7
   },
@@ -68,6 +68,22 @@
       "citation_id": "cvEv8M4AAAAJ:_Qo2XoVZTnwC",
       "category": "book",
       "category_label": "Books & Chapters"
+    },
+    {
+      "title": "SPIC-Mo: diagnosing urban infrastructure for safe, nature-responsive child mobility, Ghaziabad, India",
+      "authors": [
+        "Prashant Sireesh",
+        "Shreyas P. Bharule"
+      ],
+      "year": 2026,
+      "venue": "Cities &amp; Health",
+      "type": "journal-article",
+      "doi": "10.1080/23748834.2026.2746229",
+      "url": "https://doi.org/10.1080/23748834.2026.2746229",
+      "source": "ORCID + Crossref",
+      "scholar_citations": 0,
+      "category": "journal",
+      "category_label": "Journal Articles"
     },
     {
       "title": "Revitalization of College Street Kolkata",
@@ -481,7 +497,7 @@
       "url": "https://doi.org/10.1016/j.tranpol.2022.12.010",
       "source": "ORCID + Crossref + Google Scholar",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:4TOpqqG69KYC",
-      "scholar_citations": 31,
+      "scholar_citations": 32,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=4710954045532750986",
       "citation_id": "cvEv8M4AAAAJ:4TOpqqG69KYC",
       "category": "journal",
@@ -507,7 +523,7 @@
       "url": "https://doi.org/10.1016/j.cities.2022.104117",
       "source": "ORCID + Crossref + Google Scholar",
       "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cvEv8M4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=cvEv8M4AAAAJ:_kc_bZDykSQC",
-      "scholar_citations": 11,
+      "scholar_citations": 12,
       "scholar_cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=972491302225852598",
       "citation_id": "cvEv8M4AAAAJ:_kc_bZDykSQC",
       "category": "journal",
